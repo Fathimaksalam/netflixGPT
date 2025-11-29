@@ -1,15 +1,9 @@
-import { useState } from 'react'
-
-import './App.css'
+import Body from "./components/Body"
 
 function App() {
   
   return (
-    
-    <div className='text-3xl font-bold text-red-400'>
-      <p>Welcome</p>
-    </div>
-    
+    <Body/>    
   )
 }
 
